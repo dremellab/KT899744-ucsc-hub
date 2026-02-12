@@ -22,7 +22,8 @@ visibility full
     bigDataUrl KOS_1h_1.bigwig
     shortLabel 1h r1
     longLabel 1h replicate 1
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,102,204
     visibility full
@@ -33,7 +34,8 @@ visibility full
     bigDataUrl KOS_1h_2.bigwig
     shortLabel 1h r2
     longLabel 1h replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,102,204
     visibility full
@@ -44,7 +46,8 @@ visibility full
     bigDataUrl KOS_1h_3.bigwig
     shortLabel 1h r3
     longLabel 1h replicate 3
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,102,204
     visibility full
@@ -55,7 +58,8 @@ visibility full
     bigDataUrl KOS_1h_4.bigwig
     shortLabel 1h r4
     longLabel 1h replicate 4
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,102,204
     visibility full
@@ -76,7 +80,8 @@ visibility full
     bigDataUrl KOS_2h_1.bigwig
     shortLabel 2h r1
     longLabel 2h replicate 1
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,153,0
     visibility full
@@ -87,7 +92,8 @@ visibility full
     bigDataUrl KOS_2h_2.bigwig
     shortLabel 2h r2
     longLabel 2h replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,153,0
     visibility full
@@ -98,7 +104,8 @@ visibility full
     bigDataUrl KOS_2h_3.bigwig
     shortLabel 2h r3
     longLabel 2h replicate 3
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,153,0
     visibility full
@@ -109,7 +116,8 @@ visibility full
     bigDataUrl KOS_2h_4.bigwig
     shortLabel 2h r4
     longLabel 2h replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 0,153,0
     visibility full
@@ -132,7 +140,8 @@ visibility full
     bigDataUrl KOS_4h_1.bigwig
     shortLabel 4h r1
     longLabel 4h replicate 1
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 255,140,0
     visibility full
@@ -143,7 +152,8 @@ visibility full
     bigDataUrl KOS_4h_2.bigwig
     shortLabel 4h r2
     longLabel 4h replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 255,140,0
     visibility full
@@ -165,7 +175,8 @@ visibility full
     bigDataUrl KOS_6h_1.bigwig
     shortLabel 6h r1
     longLabel 6h replicate 1
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 153,0,204
     visibility full
@@ -176,7 +187,8 @@ visibility full
     bigDataUrl KOS_6h_2.bigwig
     shortLabel 6h r2
     longLabel 6h replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 153,0,204
     visibility full
@@ -198,7 +210,8 @@ visibility full
     bigDataUrl CsClKOS_v1_S9.bigwig
     shortLabel Ctrl r1
     longLabel Control replicate 1
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 120,120,120
     visibility full
@@ -209,7 +222,8 @@ visibility full
     bigDataUrl CsClKOS-v2_S10.bigwig
     shortLabel Ctrl r2
     longLabel Control replicate 2
-    autoScale on
+    autoScale off
+    viewLimits 0:40
     maxHeightPixels 50:50:50
     color 120,120,120
     visibility full
