@@ -1,0 +1,161 @@
+track genes
+type bigBed 12
+bigDataUrl KT899744.1.bb
+shortLabel Genes
+longLabel Viral Genes
+visibility pack
+
+
+########################
+# Coverage: 1h (all reps)
+########################
+track cov_1h
+compositeTrack on
+shortLabel 1h
+longLabel Coverage 1h
+type bigWig
+visibility full
+
+    track cov_1h_rep1
+    parent cov_1h
+    type bigWig
+    bigDataUrl KOS_1h_1.bigwig
+    shortLabel 1h r1
+    longLabel 1h replicate 1
+    autoScale on
+    visibility full
+
+    track cov_1h_rep2
+    parent cov_1h
+    type bigWig
+    bigDataUrl KOS_1h_2.bigwig
+    shortLabel 1h r2
+    longLabel 1h replicate 2
+    autoScale on
+    visibility full
+
+    track cov_1h_rep3
+    parent cov_1h
+    type bigWig
+    bigDataUrl KOS_1h_3.bigwig
+    shortLabel 1h r3
+    longLabel 1h replicate 3
+    autoScale on
+    visibility full
+
+
+########################
+# Coverage: 2h (all reps)
+########################
+track cov_2h
+compositeTrack on
+shortLabel 2h
+longLabel Coverage 2h
+type bigWig
+visibility full
+
+    track cov_2h_rep1
+    parent cov_2h
+    type bigWig
+    bigDataUrl KOS_2h_1.bigwig
+    shortLabel 2h r1
+    longLabel 2h replicate 1
+    autoScale on
+    visibility full
+
+    track cov_2h_rep2
+    parent cov_2h
+    type bigWig
+    bigDataUrl KOS_2h_2.bigwig
+    shortLabel 2h r2
+    longLabel 2h replicate 2
+    autoScale on
+    visibility full
+
+
+########################
+# Coverage: 4h (all reps)
+########################
+track cov_4h
+compositeTrack on
+shortLabel 4h
+longLabel Coverage 4h
+type bigWig
+visibility full
+
+    track cov_4h_rep1
+    parent cov_4h
+    type bigWig
+    bigDataUrl KOS_4h_1.bigwig
+    shortLabel 4h r1
+    longLabel 4h replicate 1
+    autoScale on
+    visibility full
+
+    track cov_4h_rep2
+    parent cov_4h
+    type bigWig
+    bigDataUrl KOS_4h_2.bigwig
+    shortLabel 4h r2
+    longLabel 4h replicate 2
+    autoScale on
+    visibility full
+
+
+########################
+# Coverage: 6h (all reps)
+########################
+track cov_6h
+compositeTrack on
+shortLabel 6h
+longLabel Coverage 6h
+type bigWig
+visibility full
+
+    track cov_6h_rep1
+    parent cov_6h
+    type bigWig
+    bigDataUrl KOS_6h_1.bigwig
+    shortLabel 6h r1
+    longLabel 6h replicate 1
+    autoScale on
+    visibility full
+
+    track cov_6h_rep2
+    parent cov_6h
+    type bigWig
+    bigDataUrl KOS_6h_2.bigwig
+    shortLabel 6h r2
+    longLabel 6h replicate 2
+    autoScale on
+    visibility full
+
+
+############
+# Controls
+############
+track cov_ctrl
+compositeTrack on
+shortLabel Controls
+longLabel Coverage controls
+type bigWig
+visibility full
+
+    track cov_ctrl_rep1
+    parent cov_ctrl
+    type bigWig
+    bigDataUrl CONTROL_1.bigwig
+    shortLabel Ctrl r1
+    longLabel Control replicate 1
+    autoScale on
+    visibility full
+
+    track cov_ctrl_rep2
+    parent cov_ctrl
+    type bigWig
+    bigDataUrl CONTROL_2.bigwig
+    shortLabel Ctrl r2
+    longLabel Control replicate 2
+    autoScale on
+    visibility full
+

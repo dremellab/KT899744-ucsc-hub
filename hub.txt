@@ -1,0 +1,5 @@
+hub VirusHub
+shortLabel KT899744.1
+longLabel KT899744.1 Viral Genome
+genomesFile genomes.txt
+email cud2td@virginia.edu

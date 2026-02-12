@@ -1,0 +1,3 @@
+genome virus
+twoBitPath virus/KT899744.1.2bit
+trackDb virus/trackDb.txt
