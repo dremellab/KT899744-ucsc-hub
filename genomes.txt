@@ -3,5 +3,5 @@ trackDb virus/trackDb.txt
 twoBitPath virus/KT899744.1.2bit
 organism KT899744.1
 description KT899744.1 viral genome
-defaultPos virus:1-152000
+defaultPos KT899744.1:1-5000
 orderKey 1
