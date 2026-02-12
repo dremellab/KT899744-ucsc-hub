@@ -49,6 +49,16 @@ visibility full
     color 0,102,204
     visibility full
 
+    track cov_1h_rep4
+    parent cov_1h
+    type bigWig
+    bigDataUrl KOS_1h_4.bigwig
+    shortLabel 1h r4
+    longLabel 1h replicate 4
+    autoScale on
+    maxHeightPixels 50:50:50
+    color 0,102,204
+    visibility full
 
 ########################
 # Coverage: 2h (all reps)
@@ -81,6 +91,29 @@ visibility full
     maxHeightPixels 50:50:50
     color 0,153,0
     visibility full
+
+    track cov_2h_rep3
+    parent cov_2h
+    type bigWig
+    bigDataUrl KOS_2h_3.bigwig
+    shortLabel 2h r3
+    longLabel 2h replicate 3
+    autoScale on
+    maxHeightPixels 50:50:50
+    color 0,153,0
+    visibility full
+
+    track cov_2h_rep4
+    parent cov_2h
+    type bigWig
+    bigDataUrl KOS_2h_4.bigwig
+    shortLabel 2h r4
+    longLabel 2h replicate 2
+    autoScale on
+    maxHeightPixels 50:50:50
+    color 0,153,0
+    visibility full
+
 
 
 ########################
